@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: securtity
+  cloud:
+    config:
+      uri: ${CONFIG_URI:http://localhost:1201/}
+      profile: ${CONFIG_PROFILE:dev}
+      label: develop
+server:
+  port: 4001
+  
+ 

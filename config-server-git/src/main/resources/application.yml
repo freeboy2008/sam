@@ -1,0 +1,10 @@
+spring :
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/freeboy2008/myGit/
+server:
+  port: 1201
