@@ -35,5 +35,5 @@ public class Sender {
 		String context = "hi, fanout msg ";
 		System.out.println("Sender : " + context);
 		this.rabbitTemplate.convertAndSend("fanoutExchange","", context);
-}
+    }
 }
